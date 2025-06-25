@@ -114,7 +114,7 @@ namespace RefactoringGuru.DesignPatterns.Memento.Conceptual
     // The Caretaker doesn't depend on the Concrete Memento class. Therefore, it
     // doesn't have access to the originator's state, stored inside the memento.
     // It works with all mementos via the base Memento interface.
-    class Caretaker
+    class Caretaker 
     {
         private List<IMemento> _mementos = new List<IMemento>();
 
